@@ -1,0 +1,40 @@
+h1 {
+    color: #08bdbd;
+    font-weight: bold;
+    border-bottom: 2px solid lightgray;
+    }
+a{
+    color:darkgray
+}
+a:hover {
+    color: black;
+}
+body{
+    background-color:lightgray;
+}
+#name {
+    background-color: #08bdbd;
+    color: white;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.container {
+    background-color: white;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+form {
+    background-color: white;
+    padding: 40px;
+}
+footer {
+    min-height: 50px;
+    background-color: gray;
+    border-top: 7px solid #08bdbd;
+}
+.col-md-8 {
+    background-color: white;
+}
