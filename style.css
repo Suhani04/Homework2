@@ -19,13 +19,7 @@ body{
     font-size: large;
     font-weight: bold;
 }
-.container {
-    background-color: white;
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-}
+
 form {
     background-color: white;
     padding: 40px;
@@ -35,6 +29,23 @@ footer {
     background-color: gray;
     border-top: 7px solid #08bdbd;
 }
+.site-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+.site-content {
+    flex: 1;
+  }
+
 .col-md-8 {
     background-color: white;
 }
